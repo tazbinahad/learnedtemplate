@@ -1,0 +1,266 @@
+/* Import Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto&family=Work+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+/* Import all css */
+@import url(src/css/partials/_variables.css);
+@import url(src/css/partials/global.css);
+@import url(src/css/responsive.css);
+/* 01.Start header area */
+.header-area {
+  background: url(src/img/header-image/header-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.header-area .site-logo > img {
+  width: 100%;
+}
+.header-area .main-menu {
+}
+.header-area .main-menu ul {
+}
+.header-area .main-menu ul li {
+  padding: 5px 10px;
+}
+.header-area .main-menu ul li a {
+  color: var(--text-color);
+  font-family: var(--worksans);
+}
+.header-area .main-menu ul li a button {
+  margin-top: -10px;
+}
+.header-area .main-menu ul li:hover a {
+  color: var(--primary-color) !important;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.header-area .banner {
+  padding: 5rem 5rem 20rem 5rem;
+}
+.header-area .banner h2 {
+  font-family: var(--montserrat);
+  color: var(--primary-color);
+  font-size: 40px;
+}
+.header-area .banner p {
+}
+/* Sticky Header */
+
+/* 03.start education area */
+.education-area {
+  margin-top: -3rem;
+  padding: 30px 0;
+}
+.education-area .education-heading p {
+  padding: 0 10px;
+}
+.education-area .single-education {
+  margin-top: 50px;
+  background: #f9703a;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.education-area .single-education h3 {
+  color: #fff;
+  font-family: var(--worksans);
+  font-weight: bold;
+}
+/* if need separate image background */
+.education-area .s2 {
+  background: #80be41;
+}
+.education-area .s3 {
+  background: #ffb258;
+}
+.education-area .single-education:hover {
+  border: 1px solid var(--border-color);
+  box-shadow: var(--box-shadow);
+}
+/* 04.learning area */
+.learning-area {
+  padding: 3rem 0;
+}
+.learning-area .learning-image::before {
+  content: "";
+  position: absolute;
+  background-image: url(src/img/department-section/bg-circle.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: left;
+  height: 900px;
+  width: 900px;
+  top: -9rem;
+  left: -24rem;
+  z-index: -1;
+}
+.learning-area .learning-image > img {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.learning-area .course-outline .students h2 {
+  font-size: 40px;
+  font-family: var(--montserrat);
+  color: #ffba00;
+  font-weight: 600;
+}
+.learning-area .course-outline .students p {
+  font-size: 18px;
+  color: #ffba00;
+  margin-top: -10px;
+}
+.learning-area .course-outline .course h2 {
+  font-size: 40px;
+  font-family: var(--montserrat);
+  color: #ff5f72;
+  font-weight: 600;
+}
+.learning-area .course-outline .course p {
+  font-size: 18px;
+  color: #ff5f72;
+  margin-top: -10px;
+}
+.learning-area .course-outline .course-time h2 {
+  font-size: 40px;
+  font-family: var(--montserrat);
+  color: #43cb83;
+  font-weight: 600;
+}
+.learning-area .course-outline .course-time p {
+  font-size: 18px;
+  color: #43cb83;
+  margin-top: -10px;
+}
+/* 05.Service area */
+.service-area .services .card {
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.service-area .services .card .card-body .card-title {
+  font-family: var(--worksans);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+.service-area .services .card .card-body .card-text {
+  font-family: var(--roboto);
+  font-size: 12px;
+}
+.service-area .services .card .card-body > a {
+  font-family: var(--worksans);
+  color: var(--text-color);
+  font-size: 14px;
+}
+.service-area .services .card :hover > .card-title {
+  cursor: pointer;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+.service-area .services .card :hover > a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+/* 06.top footer */
+.footer-area .top-footer {
+  background: #252c3a;
+  padding: 5rem 0;
+}
+.footer-area .top-footer .footer-logo {
+  display: flex;
+}
+.footer-area .top-footer .footer-logo > img {
+  width: 43px;
+  height: 41px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.footer-area .top-footer .footer-logo .footer-brand > h2 {
+  font-family: var(--montserrat);
+  color: #ffffff;
+  font-weight: bold;
+}
+.footer-area .top-footer .footer-logo .footer-brand > p {
+  color: #ffffff;
+  font-family: var(--roboto);
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin-top: -14px;
+  margin-left: 2px;
+}
+.footer-area .top-footer .logo-content {
+  color: #969595;
+  font-family: var(--roboto);
+  font-size: 13px;
+}
+.footer-area .top-footer .social-icon > i {
+  color: var(--text-color);
+  margin-top: 1rem;
+  padding-right: 0.8rem;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.footer-area .top-footer .social-icon > i:hover {
+  color: #0089fd;
+  cursor: pointer;
+}
+.footer-area .top-footer .footer-heading > h6 {
+  font-family: var(--roboto);
+  color: #ffffff;
+}
+.footer-area .top-footer .footer-heading {
+  padding-top: 5px;
+  padding-bottom: 1.5rem;
+}
+.footer-area .top-footer .second-col a {
+  display: block;
+  color: #969595;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.footer-area .top-footer .second-col a:hover {
+  color: #0089fd;
+  text-decoration: none;
+  cursor: pointer;
+}
+.support-box p {
+  font-family: var(--roboto);
+  color: #969595;
+  margin-top: 10px;
+}
+.support-box .email-help input {
+  padding: 10px 13px;
+  font-size: 12px;
+  border: 0px;
+}
+.support-box .email-help a button {
+  font-size: 12px;
+  padding: 10px 15px;
+  font-family: var(--worksans);
+  border-radius: 0;
+  margin-left: -1px;
+  background: var(--primary-color);
+  color: #ffffff;
+}
+.support-box .email-help a button:hover {
+  background: var(--secondary-color2);
+  border: 1px solid var(--primary-color);
+}
+/* 07. Bottom footer */
+.bottom-footer {
+  padding: 20px 0;
+  background: #1d232e;
+  font-family: var(--roboto);
+}
+.bottom-footer .bottom-left h6 {
+  color: var(--text-color);
+  font-size: 14px;
+}
+.bottom-footer .bottom-right > a {
+  color: var(--text-color);
+  font-size: 14px;
+  padding-left: 20px;
+}

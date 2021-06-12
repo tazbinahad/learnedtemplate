@@ -1,0 +1,8 @@
+@media only screen and (max-width: 768px){
+    .footer-area .bottom-footer .bottom-left{
+        text-align: center;
+    }
+    .bottom-right{
+        justify-content: center !important;
+    }
+}

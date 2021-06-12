@@ -1,0 +1,69 @@
+.font-16{
+    font-size: 16px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+/* fonts variables */
+.font-worksans{
+    font-family: var(--worksans) !important;
+}
+.font-montserrat{
+    font-family: var(--montserrat) !important;
+}
+.font-roboto{
+    font-family: var(--roboto) !important;
+}
+/* active class */
+.active a{
+    color: var(--primary-color) !important;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.divider{
+    height: 1px;
+    background: var(--text-color);
+}
+/* text class */
+.title-text{
+    font-size: 35px;
+    font-family: var(--worksans);
+    font-weight: 700;
+}
+.content{
+    font-size: 18px;
+    font-family: var(--worksans);
+    color: var(--text-color);
+}
+.label{
+    font-family: var(--roboto);
+    color: 666768;
+    font-size: 10px ;
+}
+/*Button class*/
+.button-primary{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px 1px #e6e6e6d1;
+    transition: ease-in-out .3s;
+}
+.button-primary:hover{
+    background-color: #ffffff;
+    color: var(--primary-color);
+}
+.button-light{
+    background-color: #ffffff;
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px 1px #e6e6e6d1;
+    transition: ease-in-out .3s;
+}
+.button-light:hover{
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+/* Others */
+
